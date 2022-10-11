@@ -6,19 +6,18 @@ public class Test1110 {
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
-		int cnt =0;
-		int b=0;
-		String a = s.next();
-		
-		while(true) {
-		if (Integer.parseInt(a) < 10) a = 0+a;
-		b = (a.charAt(0)-'0')+(a.charAt(1)-'0');
-		String c = b+"";
-		cnt++;
-		//if(a == Integer.parseInt(c))break;
+		int a = s.nextInt();	//입력
+		int copy = a;		//변수 복사
+		int count = 0;
+		 
+		while(true){
+			a = ((a % 10) * 10) + (((a / 10) + (a % 10)) % 10);
+			count++;
+		 
+			if(copy == a){
+				break;
+			}
 		}
-		
-
+		System.out.println(count);
 	}
-
 }
