@@ -11,7 +11,7 @@ public class Test2444 {
 		int a = s.nextInt();
 		int count = a;
 		
-		for(int i=1; i<=a;i++) {
+		for(int i=1; i<=a;i++) { 
 			for(int j=1; j<=count-1; j++) {
 				System.out.print(" ");
 			}
