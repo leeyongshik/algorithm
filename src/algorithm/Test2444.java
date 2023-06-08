@@ -23,6 +23,21 @@ public class Test2444 {
 			}
 			System.out.println();
 		}
+		count=1;
+		for(int i= a; i>1; i--) {
+			for(int j =1; j<count; j++) {
+				System.out.print(" ");
+			}
+			count++;
+			int star=0;
+			star = star + (i*2)-2;
+			for(int j=1; j<star; j++) {
+				System.out.print("*");
+			}
+			System.out.println();
+			
+		}
+		
 	}
 
 }
