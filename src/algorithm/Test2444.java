@@ -25,7 +25,7 @@ public class Test2444 {
 		}
 		count=1;
 		for(int i= a; i>1; i--) {
-			for(int j =1; j<count; j++) {
+			for(int j =1; j<count+1; j++) {
 				System.out.print(" ");
 			}
 			count++;
