@@ -15,6 +15,6 @@ public class Test10988 {
 	              sw=0;
 	          }         
           }
-      System.out.println(sw);
+      System.out.println(sw); 
 	}
 }
