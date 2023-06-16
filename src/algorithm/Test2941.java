@@ -17,7 +17,7 @@ public class Test2941 {
 			if(a.contains(change[i])) {
 				int b = change[i].length();
 				count += (a.length() - a.replace(change[i], "").length()) / change[i].length();
-				System.out.println(count);
+				System.out.println(count); 
 			}
 		}
 		
