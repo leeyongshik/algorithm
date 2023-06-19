@@ -11,18 +11,13 @@ public class Test2941 {
 		String[] change = {"c=","c-","dz=","d-","lj","nj","s=","z="};
 		
 		String a = s.next();
-		int count = 0;
 		
 		for(int i =0; i< change.length; i++) {
 			if(a.contains(change[i])) {
-				int b = change[i].length();
-				count += (a.length() - a.replace(change[i], "").length()) / change[i].length();
-				System.out.println(count); 
+				a = a.replace(change[i], "!"); 
 			}
 		}
-		
-		
-		
+		System.out.println(a.length());
 	}
 
 }
