@@ -12,7 +12,7 @@ public class Test1316 {
 		for(int i = 1; i <= a; i++) {
 			String b = s.next();
 			
-		}
+		} 
 	}
 
 }
