@@ -13,6 +13,6 @@ public class Test1316 {
 			String b = s.next();
 			
 		} 
-	}
+	} 
 
 }
