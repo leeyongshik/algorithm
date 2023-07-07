@@ -25,7 +25,7 @@ public class Test1316 {
 					check[index] = true; // 문자 사용 체크
 				}
 			}
-			if(tmp) cnt++;
+			if(tmp) cnt++; 
 		}   
 		
 		System.out.println(cnt);
