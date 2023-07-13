@@ -27,7 +27,7 @@ public class Test1316 {
 			}
 			if(tmp) cnt++;  
 		}   
-		 
+		  
 		System.out.println(cnt);
 	}    
  
