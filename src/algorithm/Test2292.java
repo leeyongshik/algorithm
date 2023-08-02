@@ -23,5 +23,5 @@ public class Test2292 {
 		System.out.println(count);
 	}
 
-}
+} 
  
