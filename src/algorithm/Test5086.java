@@ -6,6 +6,5 @@ public class Test5086 {
 		// TODO Auto-generated method stub
 		
 
-	}
-
+	} 
 }
