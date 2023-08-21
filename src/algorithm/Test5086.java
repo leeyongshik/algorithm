@@ -36,7 +36,7 @@ public class Test5086 {
         // 현재 인덱스의 숫자를 포함하지 않는 경우
         if (findCombinationHelper(numbers, targetSum, currentIndex + 1, currentSum)) {
             return true;
-        }
+        } 
 
         // 현재 인덱스의 숫자를 포함하는 경우
         if (findCombinationHelper(numbers, targetSum, currentIndex + 1, currentSum + numbers[currentIndex])) {
