@@ -26,7 +26,7 @@ public class Test5086 {
 
     public static boolean findCombinationHelper(int[] numbers, int targetSum, int currentIndex, int currentSum) {
         if (currentSum == targetSum) {
-            return true;
+            return true; 
         }
 
         if (currentSum > targetSum || currentIndex >= numbers.length) {
