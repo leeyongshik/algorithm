@@ -23,7 +23,7 @@ public class Test2501 {
 			System.out.println(0);
 		}else {
 			System.out.println(list.get(b-1));
-		}  
+		}   
 
 	}
 
