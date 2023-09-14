@@ -17,7 +17,7 @@ public class Test2501 {
 			if( a % i == 0 ) {
 				list.add(i);
 			}
-		}
+		} 
 		
 		if(b > list.size()) {
 			System.out.println(0);  
