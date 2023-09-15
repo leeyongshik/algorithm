@@ -25,6 +25,6 @@ public class Test2501 {
 			System.out.println(list.get(b-1));
 		}     
     
-	}
+	} 
 
 }
