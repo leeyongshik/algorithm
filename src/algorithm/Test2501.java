@@ -22,7 +22,7 @@ public class Test2501 {
 		if(b > list.size()) {
 			System.out.println(0);  
 		}else { 
-			System.out.println(list.get(b-1));     
+			System.out.println(list.get(b-1));      
 		}     
       
 	} 
