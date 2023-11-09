@@ -11,7 +11,7 @@ public class Test2501 {
 		ArrayList<Integer> list = new ArrayList<Integer>();
 		
 		int a = s.nextInt();
-		int b = s.nextInt();
+		int b = s.nextInt(); 
 		
 		for(int i = 1; i <= a; i++) {    
 			if( a % i == 0 ) {
