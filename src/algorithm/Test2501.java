@@ -14,7 +14,7 @@ public class Test2501 {
 		int b = s.nextInt(); 
 		
 		for(int i = 1; i <= a; i++) {     
-			if( a % i == 0 ) {
+			if( a % i == 0 ) { 
 				list.add(i);  
 			}
 		} 
