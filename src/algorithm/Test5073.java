@@ -23,6 +23,6 @@ public class Test5073 {
 		System.out.println("끝");
 
 	}
-
+  
 }
  
