@@ -19,7 +19,7 @@ public class Test5073 {
                 
             }
 			
-		}while (a != 0 || b != 0 || c != 0); 
+		}while (a != 0 || b != 0 || c != 0);  
 		System.out.println("끝");
 
 	}
