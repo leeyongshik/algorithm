@@ -17,7 +17,7 @@ public class Test5073 {
 			if (a != 0 || b != 0 || c != 0) {
                 // 입력받은 값이 모두 0이 아닌 경우 계속 반복
                 
-            }
+            } 
 			
 		}while (a != 0 || b != 0 || c != 0);  
 		System.out.println("끝");
