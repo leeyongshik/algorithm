@@ -12,6 +12,6 @@ public class Test10998 {
 		
 		System.out.println(a*b);
 
-	}
+	} 
 
 }
