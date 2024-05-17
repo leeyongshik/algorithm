@@ -13,7 +13,7 @@ public class Test1000 {
 		
 		System.out.println(a+b);  
 		
-
+ 
 	}     
   
 } 
